@@ -1,0 +1,22 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+@font-face {
+  font-family: "Brilliant Cut Pro Medium";
+  src: url("../fonts/3604f4825ccb062a5d820dbc27e48be2.eot");
+  src: url("../fonts/3604f4825ccb062a5d820dbc27e48be2.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/3604f4825ccb062a5d820dbc27e48be2.woff") format("woff"),
+       url("../fonts/3604f4825ccb062a5d820dbc27e48be2.woff2") format("woff2"),
+       url("../fonts/3604f4825ccb062a5d820dbc27e48be2.ttf") format("truetype"),
+       url("../fonts/3604f4825ccb062a5d820dbc27e48be2.svg#Brilliant Cut Pro Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 이 속성은 필요에 따라 변경 가능 */
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+}
+
+.brilliantCut {
+  font-family: "Brilliant Cut Pro Medium", Arial, sans-serif;
+}
