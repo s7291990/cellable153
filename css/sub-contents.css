@@ -57,6 +57,86 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 .nk-chart-wrap .mchart{width:100%;height:auto;overflow:hidden;margin-top:130px;}
 .nk-chart-wrap .mchart img{width:100%;}
 
+/*성형*/
+.page-location-wrap{}
+.page-location-wrap ul{}
+.page-location-wrap ul li{}
+.page-location-wrap ul li.on{}
+
+.cosmetic-tabmenu-wrap{}
+.cosmetic-tabmenu-wrap .swiper{}
+.cosmetic-tabmenu-wrap .swiper .swiper-slide{}
+.cosmetic-tabmenu-wrap .swiper .swiper-slide a{}
+.cosmetic-tabmenu-wrap .swiper-button-next{}
+.cosmetic-tabmenu-wrap .swiper-button-prev{}
+
+.cosmetic-title-wrap{}
+.cosmetic-title-wrap h2{}
+
+.cosmetic-detail-wrap{}
+.cosmetic-detail-wrap .cosmetic-info-wrap{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .mtit{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .mtit strong{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .mdesc{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .mdesc strong{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem .otit{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem ul{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem ul li{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem ul li .key{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .scont .minfo .sitem ul li .value{}
+.cosmetic-detail-wrap .cosmetic-info-wrap .spic{}
+
+.cosmetic-info-features-wrap{}
+.cosmetic-info-features-wrap .mtit{}
+.cosmetic-info-features-wrap .mdesc{}
+.cosmetic-info-features-wrap .mlist{}
+.cosmetic-info-features-wrap .mlist li{}
+.cosmetic-info-features-wrap .mlist li .mpic{}
+.cosmetic-info-features-wrap .mlist li .mtxt{}
+
+.cosmetic-method-wrap{}
+.cosmetic-method-wrap .mtit{}
+.cosmetic-method-wrap .mtit strong{}
+.cosmetic-method-wrap .mlist{}
+.cosmetic-method-wrap .mlist li{}
+.cosmetic-method-wrap .mlist li .key{}
+.cosmetic-method-wrap .mlist li .value{}
+.cosmetic-method-wrap .step-list{}
+.cosmetic-method-wrap .step-list li{}
+.cosmetic-method-wrap .step-list li .spic{}
+.cosmetic-method-wrap .step-list li .snum{}
+.cosmetic-method-wrap .step-list li .sdesc{}
+
+.before-after-wrap{}
+.before-after-wrap .left-item-wrap{}
+.before-after-wrap .left-item-wrap ul{}
+.before-after-wrap .left-item-wrap ul li{}
+.before-after-wrap .left-item-wrap ul li .mpic{}
+.before-after-wrap .left-item-wrap ul li .mcont{}
+.before-after-wrap .left-item-wrap ul li .mcont .otit{}
+.before-after-wrap .left-item-wrap ul li .mcont .odesc{}
+
+.before-after-wrap .right-item-wrap{}
+.before-after-wrap .right-item-wrap .mpic{}
+.before-after-wrap .right-item-wrap .mdesc{}
+
+.technique-item-wrap{}
+.technique-item-wrap dl{}
+.technique-item-wrap dl dt{}
+.technique-item-wrap dl dd{}
+
+.cosmetic-point-title{}
+.cosmetic-point-wrap{}
+.cosmetic-point-wrap dl{}
+.cosmetic-point-wrap dl dt{}
+.cosmetic-point-wrap dl dd{}
+.cosmetic-point-wrap dl dd ul{}
+.cosmetic-point-wrap dl dd ul li{}
+
+
 @media (max-width:1390px) {
 
 }
