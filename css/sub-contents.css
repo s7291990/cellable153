@@ -73,8 +73,8 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 .nk-chart-wrap .mchart img{max-width:883px;width:100%;}
 
 /*성형*/
-.page-location-wrap{}
-.page-location-wrap ul{}
+.page-location-wrap{width:257px;height:auto;overflow:hidden;border-bottom:2px solid #B29377;}
+.page-location-wrap ul{width:100%;height:auto;overflow:hidden;display:flex;justify-content:flex-end;align-items:center;}
 .page-location-wrap ul li{}
 .page-location-wrap ul li.on{}
 
