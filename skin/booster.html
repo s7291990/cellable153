@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cellable153</title>
+    <meta name="description" content="셀러블메디 - 세포 치료, 성형, 피부, 여성 클리닉 등의 의료 서비스를 제공하는 병원입니다.">
+    <meta name="keywords" content="셀러블메디, 세포치료, 성형, 피부, 여성클리닉, 건강검진, 기능의학, 스포츠사이언스, MEDI SPA">
+    <meta name="author" content="Cellable153 Team">
+
+    <meta property="og:title" content="Cellable153 - 의료 서비스">
+    <meta property="og:description" content="세포치료, 성형, 피부 및 여성 클리닉을 제공합니다.">
+    <meta property="og:image" content="../img/og-image.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/subAll.css">
+    <link rel="stylesheet" href="../css/sub-contents.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header id="header" role="banner" aria-label="셀러블메디 메인 헤더">
+        <div class="wide-wrap">
+            <h1 class="logo">
+                <img src="../img/logo.svg" class="default" alt="셀러블메디 로고 - 세포치료, 성형 및 피부 클리닉">
+                <img src="../img/logo-on.svg" class="on" alt="셀러블메디 로고 - 세포치료, 성형 및 피부 클리닉">
+            </h1>
+
+            <nav class="nav-bar" role="navigation" aria-label="주요 메뉴">
+                <a href="#none" class="a" title="셀러블 153 페이지로 이동">셀러블 153</a>
+                <a href="#none" title="세포치료 정보로 이동">세포치료</a>
+                <a href="#none" title="성형 정보로 이동">성형</a>
+                <a href="#none" title="피부 정보로 이동">피부</a>
+                <a href="#none" title="여성 클리닉 정보로 이동">여성 클리닉</a>
+                <a href="#none" title="건강검진 정보로 이동">건강검진</a>
+                <a href="#none" title="기능의학 정보로 이동">기능의학</a>
+                <a href="#none" title="스포츠 사이언스 정보로 이동">스포츠사이언스</a>
+                <a href="#none" title="MEDI SPA 정보로 이동">MEDI SPA</a>
+            </nav>
+
+            <div class="menuButton">
+                <a href="#none" class="menuOpen" aria-label="메뉴 열기"><span></span></a>
+            </div>
+        </div>
+    </header> <!-- 헤더 영역 종료 -->
+
+    <div class="grand-menu">
+        <ul class="menu-list">
+            <li><a href="#none">셀러블 153</a>
+                <ul class="depth-2">
+                    <li><a href="#none">소개</a></li>
+                    <li><a href="#none">브랜드소개</a></li>
+                    <li><a href="#none">의료진안내</a></li>
+                    <li><a href="#none">층별 및 시설안내</a></li>
+                    <li><a href="#none">셀러블미디어</a></li>
+                    <li><a href="#none">오시는길</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#none">세포치료</a>
+                <ul class="depth-2">
+                    <li><a href="#none">줄기세포</a></li>
+                    <li><a href="#none">면역세포</a></li>
+                    <li><a href="#none">셀러블153연구소</a></li>
+                </ul>
+            </li>
+           
+            <li><a href="#none">성형</a>
+                <ul class="depth-2">
+                    <li><a href="#none">눈</a></li>
+                    <li><a href="#none">코</a></li>
+                    <li><a href="#none">윤곽</a></li>
+                    <li><a href="#none">동안</a></li>
+                    <li><a href="#none">가슴</a></li>
+                    <li><a href="#none">체형</a></li>
+                    <li><a href="#none">남자성형</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#none">피부</a>
+                <ul class="depth-2">
+                    <li><a href="#none">쁘띠</a></li>
+                    <li><a href="#none">리프팅</a></li>
+                    <li><a href="#none">레이저</a></li>
+                    <li><a href="#none">스킨부스터</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#none">여성클리닉</a>
+                <ul class="depth-2">
+                    <li><a href="#none">여성형클리닉</a></li>
+                    <li><a href="#none">질클리닉</a></li>
+                    <li><a href="#none">여성검진클리닉</a></li>
+                    <li><a href="#none">부인과클리닉</a></li>
+                    <li><a href="#none">골반저재활클리닉</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#none">건강검진</a>
+                <ul class="depth-2">
+                    <li>
+                        <a href="#none">건강검진</a>
+                        <ul class="depth-3">
+                            <li><a href="#none">공단건강검진</a></li>
+                            <li><a href="#none">기업건강검진</a></li>
+                            <li><a href="#none">종합건강검진</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">내과</a>
+                        <ul class="depth-3">
+                            <li><a href="#none">소화기내시경</a></li>
+                            <li><a href="#none">위 대장내시경</a></li>
+                            <li><a href="#none">면역증강클리닉</a></li>
+                            <li><a href="#none">수액클리닉</a></li>
+                            <li><a href="#none">비급여안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#none">기능의학</a>
+                <ul class="depth-2">
+                    <li><a href="#none">기능의학이란</a></li>
+                    <li><a href="#none">기능의학검사</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#none">스포츠사이언스</a>
+                <ul class="depth-2">
+                    <li><a href="#none">스포츠사이언스</a></li>
+                    <li><a href="#none">시설소개</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#none">MEDI SPA</a>
+                <ul class="depth-2">
+                    <li><a href="#none">시설소개</a></li>
+                    <li><a href="#none">이용안내</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <!--  -->
+
+    <main class="sub-content">
+
+        <section class="sub-section">
+            <div class="parallax-item">
+                <p class="visual-text brilliantCut">
+                    <span class="sub-page">셀러블 153</span>
+                    FOR THE FUTURE
+                    <span class="visual-text-sub">cellable 153</span>
+                </p>
+                <div class="img-visual" style="background: url(../img/sub-content/sub-skin.png) no-repeat center;"></div>
+            </div>
+        </section>
+
+        <section class="skin-about-wrap01">
+            <div class="mcont">
+                <div class="mcate">피부 속 근본 부터 개선하는</div>
+                <div class="mtit">셀러블153
+                    <br />스킨부스터
+                    <br />줄기세포</div>
+                <div class="mdesc">피부 세포를 다시 깨우는
+                    <br />셀러블153스킨부스터/줄기세포를 경험해 보세요.</div>
+                <div class="metc">피부 속 셀(Cell,세포)을 재생시켜
+                    <br />다시 태어나는 셀러블153 스킨부스터
+                    <br />/줄기세포</div>
+
+            </div>
+            <div class="mpic"><img src="../img/sub-content/etc-booster-about01.png" /></div>
+        </section>
+        <section class="skin-step-wrap">
+            <div class="mtit">셀러블153 스킨부스터/줄기세포 종류</div>
+            <ul>
+                <li>
+                    <div class="mnum">1</div>
+                    <div class="mtit">피부터닝 포인트!</div>
+                    <div class="mdesc">셀러블153
+                        <br />울쎄라</div>
+                </li>
+                <li>
+                    <div class="mnum">2</div>
+                    <div class="mtit">명품 타이트닝</div>
+                    <div class="mdesc">셀러블153
+                        <br />써마지</div>
+                </li>
+                <li>
+                    <div class="mnum">3</div>
+                    <div class="mtit">불필요한 지방삭제</div>
+                    <div class="mdesc">셀러블153
+                        <br />레비나스</div>
+                </li>
+                <li>
+                    <div class="mnum">4</div>
+                    <div class="mtit">섬세한 굴곡까지</div>
+                    <div class="mdesc">셀러블153
+                        <br />리프테라2</div>
+                </li>
+                <li>
+                    <div class="mnum">5</div>
+                    <div class="mtit">빠른 토닝효과 원해?</div>
+                    <div class="mdesc">셀러블153
+                        <br />루카스플러스</div>
+                </li>
+                <li>
+                    <div class="mnum">6</div>
+                    <div class="mtit">색소침착, 제모 개선</div>
+                    <div class="mdesc">셀러블153
+                        <br />노블린</div>
+                </li>
+                <li>
+                    <div class="mnum">7</div>
+                    <div class="mtit">여드름흉터, 모공치료</div>
+                    <div class="mdesc">셀러블153
+                        <br />프락셔널</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skin-item-wrap">
+            <ul>
+                <li>
+                    <div class="mnum">01</div>
+                    <div class="mtit">셀러블153 울쎄라</div>
+                    <div class="mdesc">피부 터닝포인트,
+                        <br />시간이 지나도 어려지는 비결</div>
+                    <div class="mcate">울쎄라 효과</div>
+                    <ol>
+                        <li>6개월~1년
+                            <br />리프팅 효과</li>
+                        <li>콜라겐 재생, 생성
+                            <br />피부리모델링</li>
+                        <li>잔주름
+                            <br />개선효과</li>
+                    </ol>
+                    <ul>
+                        <li>시술부위 : 이마, 눈가주름, 다크서클, 볼처짐, 팔자주름, 입가주름, 이중턱 ,목</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="mnum">02</div>
+                    <div class="mtit">셀러블153 써마지</div>
+                    <div class="mdesc">처진 피부를 탱탱하고 쫀쫀하게,
+                        <br />명품타이트닝 써마지</div>
+                    <div class="mcate">써마지 효과</div>
+                    <ol>
+                        <li>진피층
+                            <br />콜라겐 생성</li>
+                        <li>탄력증가
+                            <br />윤곽개선</li>
+                        <li>얼굴 및
+                            <br />눈가 주름 완화</li>
+                        <li>얼굴 라인
+                            <br />정리</li>
+                        <li>잔주름
+                            <br />개선</li>
+                        <li>비침습
+                            <br />시술</li>
+                    </ol>
+                    <ul>
+                        <li>시술부위 : 이마, 눈가주름, 피부탄력,  얼굴전체탄력, 볼처짐, 이중턱, 목주름</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="mnum">03</div>
+                    <div class="mtit">셀러블153 레비나스</div>
+                    <div class="mdesc">불필요한 지방삭제,
+                        <br />부종 감소까지!</div>
+                    <div class="mcate">레비나스 효과</div>
+                    <ol>
+                        <li>안면
+                            <br />비대칭 개선</li>
+                        <li>피부 탄력 및
+                            <br />주름개선</li>
+                        <li>줄기세포 자각을
+                            <br />통한 피부재생</li>
+                        <li>얼굴 부종
+                            <br />감소</li>
+                        <li>얼굴 근육
+                            <br />긴장 완화</li>
+                        <li>안색정화</li>
+                    </ol>
+                </li>
+                <li>
+                    <div class="mnum">04</div>
+                    <div class="mtit">셀러블153 리프테라2</div>
+                    <div class="mdesc">피부 굴곡 한 곳도 놓치지 않는
+                        <br />섬세함을 바란다면</div>
+                    <div class="mcate">리프테라 효과</div>
+                    <ol>
+                        <li>피부탄력
+                            <br />개선</li>
+                        <li>피부톤
+                            <br />개선</li>
+                        <li>잔굴곡진 부위
+                            <br />시술 가능</li>
+                        <li>잔주름
+                            <br />개선</li>
+                        <li>모공 크기
+                            <br />축소</li>
+                        <li>콜라겐 생성
+                            <br />촉진</li>
+                    </ol>
+                    <ul>
+                        <li>시술부위 : 이마, 처진눈가, 처진볼살, 팔자주름, 이중턱, 늘어난 턱살, 목주름</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="mnum">05</div>
+                    <div class="mtit">셀러블153 루카스플러스</div>
+                    <div class="mdesc">딱지도 용서할 수 없는
+                        <br />빠른 토닝효과!</div>
+                    <div class="mcate">루카스플러스 효과</div>
+                    <ol>
+                        <li>빠른 토닝
+                            <br />효과</li>
+                        <li>딱지없는
+                            <br />MLA
+                            <br />프락셔널</li>
+                        <li>다양한 난치성
+                            <br />색소 병변</li>
+                    </ol>
+                    <ul>
+                        <li>적용범위 : 화이트닝, 문신, 색소침착, 기미, 오타모반, 모공축소, 리프팅</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="mnum">06</div>
+                    <div class="mtit">셀러블153 노블린</div>
+                    <div class="mdesc">색소 침착, 제모 개선에
+                        <br />탁월한 노블린</div>
+                    <div class="mcate">노블린 효과</div>
+                    <ol>
+                        <li>기미 색소
+                            <br />치료</li>
+                        <li>진피환경의
+                            <br />개선</li>
+                        <li>표피장벽의
+                            <br />회복</li>
+                    </ol>
+                </li>
+                <li>
+                    <div class="mnum">07</div>
+                    <div class="mtit">셀러블153 프락셔널</div>
+                    <div class="mdesc">여드름 흉터 박멸,
+                        <br />근본적인 모공치료</div>
+                    <div class="mcate">노블린 효과</div>
+                    <ol>
+                        <li>여드름 및
+                            <br />여드름흉터
+                            <br />개선</li>
+                        <li>화상흉터 및
+                            <br />수술흉터 개선</li>
+                        <li>색소질환
+                            <br />개선</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+    </main>
+
+    <!--  -->
+
+
+
+
+
+
+
+
+    
+
+    <footer id="footer">
+        <div class="footer-wrap">
+            <div class="foot-counsel-list">
+                <div class="item kakao">
+                    <div class="text-box">
+                        <p class="tit brilliantCut">KAKAO TALK</p>
+                        <p class="desc">준비중입니다.</p>
+                    </div>
+                    <a href="#none" class="counsel-button">접수하기</a>
+                </div>
+                <div class="item booking">
+                    <div class="text-box">
+                        <p class="tit brilliantCut">BOOKING</p>
+                        <p class="desc">CELLABLE153@GMAIL.COM</p>
+                    </div>
+                    <a href="mailto:cellable153@gmail.com" class="counsel-button">접수하기</a>
+                </div>
+                <div class="item cost">
+                    <div class="text-box">
+                        <p class="tit brilliantCut">COST</p>
+                        <p class="desc">CELLABLE153@GMAIL.COM</p>
+                    </div>
+                    <a href="mailto:cellable153@gmail.com" class="counsel-button">접수하기</a>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <!-- <div class="foot-page">
+                    <ul class="page-list">
+                        <li><a href="#none">병원소개</a></li>
+                        <li><a href="#none">이용약관</a></li>
+                        <li><a href="#none">개인정보처리방침</a></li>
+                        <li><a href="#none">제휴제안</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <a href="#none" class="select-item">FAMILYSITE <img src="../img/ico-select-arrow.png" alt=""></a>
+                        <ul class="family-drop">
+                            <li><a href="#none">패밀리사이트 01</a></li>
+                            <li><a href="#none">패밀리사이트 02</a></li>
+                            <li><a href="#none">패밀리사이트 03</a></li>
+                            <li><a href="#none">패밀리사이트 04</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="foot-center-info">
+                    <div class="cont-lt">
+                        <div class="top-cont">
+                            <div class="center-info-item">
+                                <p class="center-name">기능의학센터</p>
+                                <p class="tel-num"><a href="tel:02-555-2222">02-555-2222</a></p>
+                            </div>
+    
+                            <div class="center-info-item">
+                                <p class="center-name">세포치료센터</p>
+                                <p class="tel-num"><a href="tel:02-555-2222">02-555-2222</a></p>
+                            </div>
+    
+                            <div class="center-info-item">
+                                <p class="center-name">성형피부센터</p>
+                                <p class="tel-num"><a href="tel:02-555-2222">02-555-2222</a></p>
+                            </div>
+    
+                            <div class="center-info-item">
+                                <p class="center-name">스포츠사이언스센터</p>
+                                <p class="tel-num"><a href="tel:02-555-2222">02-555-2222</a></p>
+                            </div>
+                        </div>
+                        <div class="bottom-cont">
+                            <p>
+                                <span>평일 (월~금)  08:00 ~ 17:00</span>
+                                <span>토요일   08:00 ~ 13:00</span>
+                                <span>일요일,공휴일,국경일 휴진</span>
+                            </p>
+                        </div>
+                    </div>
+    
+                        
+                    <div class="cont-rt">
+                        <div class="top-cont">
+                            <div class="center-info-item">
+                                <p class="center-name">스포츠사이언스센터</p>
+                                <p class="tel-num"><a href="tel:02-555-2222">02-555-2222</a></p>
+                            </div>
+                        </div>
+                        <div class="bottom-cont">
+                            <p>
+                                <span>평일 (월~금)  08:00 ~ 17:00</span>
+                                <span>토요일   08:00 ~ 13:00</span>
+                                <span>일요일,공휴일,국경일 휴진</span>
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <div class="foot-address">
+                    <div class="connect-info">
+                        <p class="tit brilliantCut">CONNECT</p>
+                        <a href="tel:1811-7153" class="connect-tel brilliantCut">1811 - 7153</a>
+
+                        <p class="tit fax brilliantCut">FAX</p>
+                        <a href="tel:02-517-0150" class="connect-tel brilliantCut">02-517-0150</a>
+                    </div>
+                    <div class="address-info">
+                        <p class="tit brilliantCut">ADDRESS</p>
+                        <p class="address">
+                            서울시 강남구 언주로 720 . 펜트힐캐스케이드 지하 1층 ~ 3층 <span class="visible-pc">우편번호 : 6515</span>
+                        </p>
+                    </div>
+                    <div class="careers-info">
+                        <p class="tit brilliantCut visible-pc">CARRERS</p>
+                        <p class="desc brilliantCut">
+                            Try us<br class="visible-pc" />
+                            <a href="mailto:cellable153@gmail.com" class="careers-email">CELLABLE153@GMAIL.COM</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const img = document.querySelector('.zoom-image');
+        const zoomInBtn = document.querySelector('.zoom-in');
+        const zoomOutBtn = document.querySelector('.zoom-out');
+        let scale = window.innerWidth < 768 ? 2 : 1;  // 768px 이하에서는 기본 scale 2
+        let isDragging = false;
+        let isZoomed = window.innerWidth < 768;  // 768px 이하에서는 기본적으로 드래그 활성화
+        let startX, startY, currentX, currentY, translateX = 0, translateY = 0;
+
+        // Zoom in
+        zoomInBtn.addEventListener('click', () => {
+            scale += 0.1;
+            isZoomed = scale > 1 || window.innerWidth < 768;  // 확대된 경우 또는 768px 이하일 때 드래그 활성화
+            applyTransform();
+        });
+
+        // Zoom out
+        zoomOutBtn.addEventListener('click', () => {
+            scale = Math.max(1, scale - 0.1);  // 최소 1배로 축소 제한
+            if (scale === 1 && window.innerWidth >= 768) {
+                // 축소되어 원래 크기로 돌아올 때 위치를 리셋 (768px 이상일 때만)
+                translateX = 0;
+                translateY = 0;
+            }
+            isZoomed = scale > 1 || window.innerWidth < 768;  // 원래 크기 또는 768px 이하일 때 드래그 활성화
+            applyTransform();
+        });
+
+        function applyTransform() {
+            img.style.transform = `scale(${scale}) translate(${translateX}px, ${translateY}px)`;
+        }
+
+        img.addEventListener('dragstart', (e) => e.preventDefault());
+
+        // Desktop mouse events
+        img.addEventListener('mousedown', (e) => {
+            if (!isZoomed) return;  // 확대되지 않았거나 768px 이상에서는 드래그 비활성화
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            img.style.cursor = 'grabbing';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging || !isZoomed) return;
+            currentX = e.clientX - startX;
+            currentY = e.clientY - startY;
+            translateX = currentX;
+            translateY = currentY;
+            applyTransform();
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+            img.style.cursor = isZoomed ? 'grab' : 'default';  // 확대되었거나 768px 이하일 때 grab 커서 표시
+        });
+
+        // Mobile touch events
+        img.addEventListener('touchstart', (e) => {
+            if (!isZoomed) return;
+            isDragging = true;
+            const touch = e.touches[0];  // 첫 번째 터치 이벤트만 추적
+            startX = touch.clientX - translateX;
+            startY = touch.clientY - translateY;
+        });
+
+        document.addEventListener('touchmove', (e) => {
+            if (!isDragging || !isZoomed) return;
+            const touch = e.touches[0];  // 첫 번째 터치 이벤트만 추적
+            currentX = touch.clientX - startX;
+            currentY = touch.clientY - startY;
+            translateX = currentX;
+            translateY = currentY;
+            applyTransform();
+        });
+
+        document.addEventListener('touchend', () => {
+            isDragging = false;
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth < 768) {
+                scale = 2;  // 768px 이하에서는 기본 scale 2
+                isZoomed = true;  // 드래그 활성화
+            } else {
+                scale = 1;  // 768px 이상에서는 기본 scale 1
+                isZoomed = false;  // 드래그 비활성화 (확대되지 않은 경우)
+                translateX = 0;
+                translateY = 0;
+            }
+            applyTransform();
+        });
+
+    </script>
+
+    <script>
+        // 탭과 스와이퍼를 초기화합니다.
+        const tabListItems = document.querySelectorAll('.space-tab-list > a');
+        const tabContentsSpace = document.querySelectorAll('.space-tab-content .space-tab');
+        const swipers = [];
+
+        // 스와이퍼 슬라이더 초기화
+        tabContentsSpace.forEach(tab => {
+            const swiperContainer = tab.querySelector('.space-swiper');
+            const swiper = new Swiper(swiperContainer, {
+                grabCursor: true,
+                loop: true,
+                effect: 'slide',
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.space-next-button',
+                    prevEl: '.space-prev-button',
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+            swipers.push(swiper);
+        });
+
+        // 탭 클릭 시 이벤트 처리
+        tabListItems.forEach((tabListItem, index) => {
+            tabListItem.addEventListener('click', () => {
+                // 모든 탭과 스와이퍼 초기화
+                tabListItems.forEach(item => item.classList.remove('active'));
+                tabContentsSpace.forEach(content => content.classList.remove('active'));
+
+                // 클릭한 탭과 해당 탭의 콘텐츠를 활성화
+                tabListItem.classList.add('active');
+                tabContentsSpace[index].classList.add('active');
+
+                // 해당 탭의 스와이퍼로 이동
+                swipers[index].update(); // 업데이트
+            });
+        });
+    </script>
+    <script src="../js/sub.js"></script>
+    <script src="../js/common.js"></script>
+</body>
+
+</html>
