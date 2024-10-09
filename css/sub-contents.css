@@ -173,6 +173,7 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 
 .cosmetic-about-wrap03{width:calc( 100% - 40px );max-width:1200px;height:auto;overflow:hidden;margin:136px auto 0 auto;}
 .cosmetic-about-wrap03 .mtit{width:100%;height:auto;text-align:center;margin-top:90px;font-size:42px;color:#B29377;font-weight:700;letter-spacing: -0.4px;}
+.cosmetic-about-wrap03 .metc{width:100%;height:auto;text-align:center;margin-top:60px;font-size:21px;color:#B29377;font-weight:600;letter-spacing: -0.4px;}
 .cosmetic-about-wrap03 .mdesc{line-height:1.5em;width:100%;height:auto;text-align:center;margin-top:34px;font-size:18px;color:#B29377;letter-spacing: -0.4px;}
 .cosmetic-about-wrap03 ul{width:100%;height:auto;text-align:center;margin-top:90px;display:flex;justify-content:space-between;align-items:flex-start;gap:20px;}
 .cosmetic-about-wrap03 ul li{width:100%;flex:1;height:auto;overflow:hidden;}
@@ -197,6 +198,8 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 
 .cosmetic-about-wrap04 .mdesc04{padding-bottom:140px;margin-top:20px;width:100%;height:auto;overflow:hidden;text-align:center;font-size:16px;color:#B29377;font-weight:500;line-height:1.5em;letter-spacing: -0.4px;}
 
+.cosmetic-about-wrap04 .mdesc05{margin-top:-60px;position:relative;padding-bottom:80px;margin-bottom:80px;width:100%;height:auto;overflow:hidden;text-align:center;font-size:33px;color:#B29377;font-weight:700;line-height:1.5em;letter-spacing: -0.4px;}
+
 
 .cosmetic-about-wrap04 ul.type01{
     margin-top:80px;
@@ -212,7 +215,7 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 }
 .cosmetic-about-wrap04 ul.type02 li .oitem{width:100%;height:489px;overflow:hidden;border-radius:14px;background:#fff;}
 .cosmetic-about-wrap04 ul.type02 li .otxt{margin-top:18px;width:100%;height:120px;overflow:hidden;border-radius:14px;background:#fff;padding:0 60px;
-    display:flex;justify-content:flex-start;align-items:center;font-size:23px;color:#B29377;font-weight:600;letter-spacing: -0.4px;
+    display:flex;justify-content:flex-start;align-items:center;font-size:23px;color:#B29377;font-weight:600;letter-spacing: -0.4px;line-height:1.5em;
 }
 
 .cosmetic-about-wrap05{width:calc( 100% - 40px );max-width:1200px;height:auto;overflow:hidden;margin:136px auto 0 auto;box-sizing: border-box;border:1px solid #E8DCD0;padding:30px 30px 120px 30px;border-radius:50px;}
@@ -304,7 +307,13 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 .cosmetic-other-wrap{width:100%;height:auto;overflow:hidden;margin-top:94px;background:#FFF2F2;padding:164px 0;}
 .cosmetic-other-wrap>ul{width:calc( 100% - 40px );max-width:1200px;height:auto;overflow:hidden;margin:0 auto;}
 .cosmetic-other-wrap>ul>li{width:100%;height:auto;overflow:hidden;background:#fff;border-radius:30px;box-sizing: border-box;padding:30px;display:flex;justify-content:flex-start;align-items:flex-start;}
-.cosmetic-other-wrap ul li .mpic{width:254px;height:375px;overflow:hidden;border-radius:16px;border:1px solid #B29377;background:#FFF6F6;}
+.cosmetic-other-wrap ul li .mpic{width:254px;height:375px;overflow:hidden;border-radius:16px;border:1px solid #B29377;background:#FFF6F6;position:relative;}
+.cosmetic-other-wrap ul li .mpic:before{
+    content:"";display:block;position:absolute;left:18px;top:16px;width:12px;height:12px;overflow:hidden;border-radius:50%;background:#B29377;
+}
+.cosmetic-other-wrap ul li .mpic span{
+    position:absolute;left:45px;top:50px;font-size:32px;color:#B29377;font-weight:700;line-height:1.3em;letter-spacing: -0.4px;
+}
 .cosmetic-other-wrap ul li .mcont{width:100%;flex:1;height:auto;overflow:hidden;margin-left:80px;}
 .cosmetic-other-wrap ul li .mcont .sdesc{padding-bottom:30px;border-bottom:1px solid #F6F2EF;margin-top:24px;width:100%;height:auto;overflow:hidden;font-size:20px;color:#B29377;font-weight:500;letter-spacing: -0.4px;}
 .cosmetic-other-wrap ul li .mcont .stit{width:100%;height:auto;overflow:hidden;margin-top:36px;font-size:18px;color:#B29377;font-weight:700;letter-spacing: -0.4px;}
@@ -348,14 +357,7 @@ font-weight:700;letter-spacing: -0.96px;margin:117px auto 124px auto;}
 .cosmetic-teacher-wrap .rela .mpic{width:637px;height:637px;overflow:hidden;position:absolute;right:0;bottom:0;}
 .cosmetic-teacher-wrap .rela .mpic img{max-width:100%;}
 
-@media (max-width:1390px) {
 
-
-}
-
-@media (max-width:768px) {
-
-}
 
 /**/
 .func-header-wrap{max-width:1200px;width:calc( 100% - 40px );height:auto;overflow:hidden;margin:150px auto 0 auto;}
@@ -570,7 +572,8 @@ line-height:1.5em;font-size:16px;color:#B29377;font-weight:400;letter-spacing: -
 .breast-result-wrap dl dd .after-box .mitem{width:100%;height:auto;overflow:hidden;flex:1;}
 .breast-result-wrap dl dd .after-box .mitem .spic{width:100%;height:357px;overflow:hidden;border-radius:20px;background:#FBEFEF;}
 .breast-result-wrap dl dd .after-box .mitem .stxt{width:100%;height:auto;overflow:hidden;text-align:center;padding-top:28px;font-size:18px;color:#B29377;letter-spacing: -0.72px;font-weight:600;}
-.breast-result-wrap dl dd .mpic{width:100%;height:344px;margin-top:50px;border-radius:20px;background:#FBEFEF;}
+.breast-result-wrap dl dd .mpic{width:100%;height:auto;margin-top:50px;border-radius:20px;background:#FBEFEF;}
+.breast-result-wrap dl dd .mpic img{width:100%;}
 .breast-result-wrap dl dd .mtit{width:100%;height:auto;overflow:hidden;margin-top:80px;font-size:26px;color:#B29377;font-weight:800;line-height:1.5em;letter-spacing: -1.04px;}
 .breast-result-wrap dl dd ul{margin-top:45px;width:100%;height:auto;overflow:hidden;display:flex;justify-content:flex-start;align-items:flex-start;flex-wrap:wrap;gap:15px;}
 .breast-result-wrap dl dd ul li{width:calc( 100% / 3 - 10px );height:174px;overflow:hidden;border-radius:13px;background:#FFF4F4;padding:40px;}
@@ -616,6 +619,10 @@ line-height:1.5em;font-size:16px;color:#B29377;font-weight:400;letter-spacing: -
     content:"";width:50px;height:220px;overflow:hidden;display:block;background:url(../img/sub-content/etc-cosmetic-title06.png) no-repeat;
     background-size:contain;position:absolute;right:24px;top:50%;margin-top:-110px;
 }
+.sub-content.cosmetic07 .cosmetic-about-wrap05 .mtit:after{
+    content:"";width:50px;height:120px;overflow:hidden;display:block;background:url(../img/sub-content/etc-cosmetic-title07.png) no-repeat;
+    background-size:contain;position:absolute;right:24px;top:50%;margin-top:-60px;
+}
 
 @media (max-width:1390px) {
 
@@ -633,14 +640,17 @@ line-height:1.5em;font-size:16px;color:#B29377;font-weight:400;letter-spacing: -
     .inspection-box-wrap .mpic .pos{font-size:24px;padding:40px 20px;}
     .inspection-box-wrap .mcont .mdesc{padding:20px 0 20px 0;font-size:16px;}
     .inspection-box-wrap .mcont ul{padding-top:20px;}
-    .inspection-box-wrap .mcont ul li{margin-right:15px;margin-bottom:15px;font-size:15px;}
+    .inspection-box-wrap .mcont ul li{margin-right:5px;margin-bottom:5px;font-size:15px;padding:0 10px;}
     .inspection-box-wrap .mpic span{font-size:14px;padding:0 20px;}
     .inspection-last-wrap{margin:60px auto;padding:40px 20px;}
     .inspection-last-wrap ul{width:100%;}
     .inspection-last-wrap ul li{padding:20px;display:block;}
     .inspection-last-wrap ul li .key{font-size:24px;}
     .inspection-last-wrap ul li .key br{display:none;}
-    .inspection-last-wrap ul li .value{font-size:16px;margin-top:10px;}
+    .inspection-last-wrap ul li .value{font-size:16px;margin-top:10px;padding-left:0;padding-top:20px;}
+    .inspection-last-wrap ul li .value:before{
+
+    }
     .func-about-wrap{display:block;margin-top:60px;}
     .func-about-wrap .mcont{margin:0;}
     .func-about-wrap .mpic{width:100%;height:auto;}
@@ -668,4 +678,235 @@ line-height:1.5em;font-size:16px;color:#B29377;font-weight:400;letter-spacing: -
     .function-end-wrap .mdesc{margin-top:40px;font-size:20px;line-height:1.5em;}
     .function-banner-wrap .mdesc br{display:none;}
     .function-banner-wrap .mdesc{padding:0 20px;}
+}
+
+@media (max-width:1390px) {
+
+
+}
+
+@media (max-width:768px) {
+    .cosmetic-tabmenu-wrap .swiper{height:40px;width:calc( 100% - 100px )}
+    .cosmetic-tabmenu-wrap .swiper .swiper-slide{width:80px;height:40px;}
+    .cosmetic-tabmenu-wrap .swiper .swiper-slide a{height:40px;font-size:16px;}
+    .cosmetic-tabmenu-wrap .swiper-button-prev,
+    .cosmetic-tabmenu-wrap .swiper-button-next{width:40px;height:40px;background-size:cover;}
+    .cosmetic-tabmenu-wrap{margin-top:60px;}
+    .cosmetic-title-wrap{margin-top:60px;}
+    .cosmetic-title-wrap h2{font-size:40px;}
+    .cosmetic-title-wrap .mdesc{font-size:18px;}
+    .cosmetic-about-wrap01{margin-top:40px;}
+    .cosmetic-about-wrap01 .mtit{font-size:30px;margin-top:60px;}
+    .cosmetic-about-wrap01 .mdesc{margin-top:20px;font-size:16px;line-height:1.5em;}
+    .cosmetic-about-wrap02{margin-top:40px;display:block;}
+    .cosmetic-about-wrap02 .sitem{display:none;}
+    .cosmetic-about-wrap02 .sbox{display:block;height:auto;padding:20px;position:static;width:100%;}
+    .cosmetic-about-wrap02 .sbox .slist01{width:100%;margin-top:0;}
+    .cosmetic-about-wrap02 .sbox .slist01:before{content:"남자성형 기본정보";display:block;
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 25px;
+        margin: 0 auto;
+        background: rgba(178, 147, 119, 0.70);
+        border: 1px solid #B29377;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 800;
+        letter-spacing: -0.4px;}
+    .cosmetic-about-wrap02 .sbox .slist01 li{width:100%;}
+    .cosmetic-about-wrap02 .sbox .slist01 li .key{font-size:16px;}
+    .cosmetic-about-wrap02 .sbox .slist01 li .value{font-size:16px;}
+    .cosmetic-about-wrap02 .sbox .slist02{margin-left:0;margin-top:20px;}
+    .cosmetic-about-wrap02 .sbox .slist02:before{content:"남자성형 대상";display:block;
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 25px;
+        margin: 0 auto;
+        background: rgba(178, 147, 119, 0.70);
+        border: 1px solid #B29377;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 800;
+        letter-spacing: -0.4px;}
+    .cosmetic-about-wrap02 .sbox .slist02 li{margin-top:16px;}
+    .cosmetic-about-wrap02 .sbox .slist02 li + li{font-size:16px;line-height:1.5em;}
+
+    .sub-content.cosmetic01 .cosmetic-about-wrap02 .sbox .slist01:before{content:"눈성형 기본 정보";}
+    .sub-content.cosmetic01.cosmetic-about-wrap02 .sbox .slist02:before{content:"눈성형 대상";}
+
+    .sub-content.cosmetic02 .cosmetic-about-wrap02 .sbox .slist01:before{content:"코성형 기본 정보";}
+    .sub-content.cosmetic02.cosmetic-about-wrap02 .sbox .slist02:before{content:"코성형 대상";}
+
+    .sub-content.cosmetic03 .cosmetic-about-wrap02 .sbox .slist01:before{content:"안면윤곽 기본 정보";}
+    .sub-content.cosmetic03.cosmetic-about-wrap02 .sbox .slist02:before{content:"안면윤곽 대상";}
+
+    .sub-content.cosmetic04 .cosmetic-about-wrap02 .sbox .slist01:before{content:"동안성형 기본 정보";}
+    .sub-content.cosmetic04.cosmetic-about-wrap02 .sbox .slist02:before{content:"동안성형 대상";}
+
+    .sub-content.cosmetic05 .cosmetic-about-wrap02 .sbox .slist01:before{content:"가슴성형 기본 정보";}
+    .sub-content.cosmetic05.cosmetic-about-wrap02 .sbox .slist02:before{content:"가슴성형 대상";}
+
+    .sub-content.cosmetic06 .cosmetic-about-wrap02 .sbox .slist01:before{content:"체형성형 기본 정보";}
+    .sub-content.cosmetic06.cosmetic-about-wrap02 .sbox .slist02:before{content:"체형성형 대상";}
+
+    .sub-content.cosmetic07 .cosmetic-about-wrap02 .sbox .slist01:before{content:"남자성형 기본 정보";}
+    .sub-content.cosmetic07.cosmetic-about-wrap02 .sbox .slist02:before{content:"남자성형 대상";}
+
+    .cosmetic-about-wrap03{margin-top:60px;}
+    .cosmetic-about-wrap03 .mtit{margin-top:0;font-size:30px;line-height:1.3em;}
+    .cosmetic-about-wrap03 .metc{margin-top:20px;font-size:18px;line-height:1.5em;}
+    .cosmetic-about-wrap03 .mdesc{margin-top:20px;font-size:16px;}
+    .cosmetic-about-wrap03 .mdesc br{display:none;}
+    .cosmetic-about-wrap03 ul{margin-top:40px;flex-wrap:wrap;}
+    .cosmetic-about-wrap03 ul li{flex:initial;width:calc( 50% - 10px );}
+    .cosmetic-about-wrap04{margin-top:60px;padding-bottom:60px;padding-top:20px;}
+    .cosmetic-about-wrap04 .mtit{transform: translateY(0px);}
+    .cosmetic-about-wrap04 .mtit span{float:left;position:static;display:block;font-size:24px;margin-top:20px;}
+    .cosmetic-about-wrap04 .mdesc05{margin-top:40px;font-size:22px;padding-bottom:0;margin-bottom:0;}
+    .cosmetic-about-wrap04 ul.type02{margin-top:20px;display:block;}
+    .cosmetic-about-wrap04 ul li{width:100%;}
+    .cosmetic-about-wrap04 ul.type02 li .oitem{height:auto;}
+    .cosmetic-about-wrap04 ul.type02 li .oitem img{width:100%;}
+    .cosmetic-about-wrap04 ul.type02 li .otxt{height:80px;padding:0 20px;font-size:18px;}
+    .cosmetic-about-wrap04 ul.type02 li + li{margin-top:20px;}
+    .cosmetic-about-wrap05{margin-top:60px;padding:20px;}
+    .cosmetic-about-wrap05 .mtit:before{display:none !important;}
+    .cosmetic-about-wrap05 .mtit:after{display:none !important;}
+    .cosmetic-about-wrap05 .mtit{height:140px;}
+    .cosmetic-about-wrap05 .mtit strong{font-size:30px;}
+    .cosmetic-about-wrap05 .mtit span{font-size:20px;padding:0 20px;line-height:1.3em;text-align:center;}
+    .cosmetic-about-wrap05 .mlist01>li{margin-top:40px;display:block;}
+    .cosmetic-about-wrap05 .mlist01 li .key{padding-left:0;}
+    .cosmetic-about-wrap05 .mlist01 li .value{margin-top:10px;}
+    .cosmetic-about-wrap05 .mpic{height:auto;margin-top:20px;}
+    .cosmetic-about-wrap05 .mpic img{width:100%;}
+    .cosmetic-about-wrap05.last{margin-bottom:60px;}
+    .cosmetic-about-wrap04 ul{margin-top:40px;}
+    .cosmetic-about-wrap04 ul li{height:120px;}
+    .cosmetic-about-wrap04 ul li span{left:20px;top:20px;font-size:18px;}
+    .cosmetic-about-wrap05 .mlist02{margin-top:40px;display:block;}
+    .cosmetic-about-wrap05 .mlist02 li .spic{height:auto;}
+    .cosmetic-about-wrap05 .mlist02 li .sdesc{padding:10px 0 20px 0;}
+    .cosmetic-about-wrap05 .mlist03{margin-top:40px;display:block;}
+    .cosmetic-about-wrap05 .mlist03 li{width:100%;}
+    .cosmetic-about-wrap05 .mlist03 li .spic{height:auto;}
+    .cosmetic-about-wrap05 .mlist03 li .spic .oitem{height:auto;}
+    .cosmetic-about-wrap05 .mlist03 li .sdesc{padding:10px 0 20px 0;}
+    .cosmetic-about-wrap05 .mlist04{margin-top:40px;}
+    .cosmetic-about-wrap05 .mlist04 li{display:block;}
+    .cosmetic-about-wrap05 .mlist04 li .spic{width:100%;height:auto;}
+    .cosmetic-about-wrap05 .mlist04 li .scont{margin-left:0;margin-top:20px;}
+    .cosmetic-about-wrap05 .mlist04 li .scont .stit{line-height:1.5em;padding:0 20px;font-size:15px;}
+    .cosmetic-about-wrap05 .mlist04 li .scont .sdesc{margin-top:15px;}
+    .cosmetic-result-wrap{margin:40px auto 0 auto;padding:20px;}
+    .cosmetic-about-wrap05 .mpic{display:block;background:transparent;}
+    .cosmetic-result-wrap .mpic .oitem{height:auto;}
+    .cosmetic-result-wrap .mpic .oitem + .oitem{margin-top:20px;}
+    .cosmetic-result-wrap .mdesc{margin-top:20px;}
+    .cosmetic-result-wrap .mdesc br{display:none;}
+    .cosmetic-other-wrap{margin-top:60px;padding:60px 0;}
+    .cosmetic-other-wrap>ul>li{padding:20px;display:block;}
+    .cosmetic-other-wrap ul li .mpic{width:100%;height:140px;}
+    .cosmetic-other-wrap ul li .mpic span{
+        left:20px;top:40px;font-size:24px;
+    }
+    .cosmetic-other-wrap ul li .mcont{margin-left:0;margin-top:0;}
+    .cosmetic-other-wrap ul li .mcont .sdesc{line-height:1.3em;margin-top:20px;padding-bottom:20px;}
+    .cosmetic-other-wrap ul li .mcont .stit{margin-top:20px;}
+    .cosmetic-other-wrap>ul>li + li{margin-top:20px;}
+    .cosmetic-point-wrap{height:auto;padding-bottom:40px;}
+    .cosmetic-point-wrap h2{margin-top:40px;}
+    .cosmetic-point-wrap .mdesc{font-size:60px;}
+    .cosmetic-point-wrap ul{margin-top:60px;display:block;}
+    .cosmetic-point-wrap ul li{width:300px;height:400px;margin:20px auto 0 auto;}
+    .cosmetic-point-wrap ul li .stit{font-size:20px;margin-top:20px;line-height:1.5em;height:90px;}
+    .cosmetic-point-wrap ul li .spic{font-size:60px;margin-top:0;}
+    .cosmetic-point-wrap ul li .sdesc{margin-top:30px;}
+
+    .cosmetic-teacher-wrap{height:auto;}
+    .cosmetic-teacher-wrap .rela{height:auto;}
+    .cosmetic-teacher-wrap .rela .mpic{position:static;width:100%;height:auto;}
+    .cosmetic-teacher-wrap .rela .mtit{margin-top:40px;font-size:32px;}
+    .cosmetic-teacher-wrap .rela .mtit br{display:none;}
+    .cosmetic-teacher-wrap .rela .mdesc{margin-top:20px;}
+    .cosmetic-teacher-wrap .rela .mname{margin-top:20px;}
+    .cosmetic-about-wrap05 .mtit strong{text-align:center;padding:0 20px;line-height:1.3em;}
+    .cosmetic-about-wrap05 .mlist05{margin-top:40px;display:block;}
+    .cosmetic-about-wrap05 .mlist05 li{width:100%;}
+    .cosmetic-about-wrap05 .mlist05 li + li{margin-top:20px;}
+    .cosmetic-about-wrap05 .mlist05 li .spic{height:auto;}
+    .cosmetic-about-wrap05 .mlist05 li .stit{margin-top:20px;font-size:20px;}
+    .cosmetic-about-wrap05 .mlist05 li .sdesc{margin-top:10px;}
+    .cosmetic-point-wrap.type01{margin-top:60px;}
+    .case-list-wrap{margin-bottom:60px;}
+    .case-list-wrap dl dt{padding:60px 0 20px 0;font-size:30px;line-height:1.3em;}
+    .case-list-wrap dl dd ul li{padding:20px;}
+    .case-list-wrap dl dd ul li .mcate{font-size:18px;}
+    .case-list-wrap dl dd ul li .mpic{margin-top:20px;}
+    .case-list-wrap dl dd ul li .mdesc{margin-top:20px;}
+    .case-list-wrap dl dd ul li .mtit{margin-top:20px;font-size:20px;}
+    .case-list-wrap dl dd ul li .method{margin-top:40px;font-size:20px;}
+    .case-list-wrap dl dd ul li + li{margin-top:20px;}
+    .cosmetic-about-wrap04 .mdesc01{font-size:18px;padding-bottom:20px;margin-bottom:20px;margin-top:40px;}
+    .cosmetic-about-wrap04 .mdesc01 br{display:none;}
+    .cosmetic-about-wrap04 .mdesc02 br{display:none;}
+    .cosmetic-about-wrap04 ul.type01{margin-top:40px;}
+    .cosmetic-about-wrap04 ul.type01 li{width: calc(100% / 2 - 14px);}
+    .cosmetic-about-wrap05 .mlist02 li .stit{padding:10px 0 0 0;font-size:20px;}
+    .cosmetic-about-wrap05 .mlist02 li .stit + .sdesc{padding-top:0;}
+    .case-list-wrap dl dd ul li .mitem{display:block;}
+    .case-list-wrap dl dd ul li .mitem .opic{height:auto;}
+    .case-list-wrap dl dd ul li .mitem .opic + .opic{margin-top:20px;}
+    .case-list-wrap dl dd ul li .mitem .olist + .olist{margin-top:20px;}
+    .cosmetic-perpect-wrap{margin-top:60px;}
+    .cosmetic-perpect-wrap .mtit{font-size:30px;line-height:1.3em;}
+    .cosmetic-perpect-wrap .mpic{margin-top:40px;}
+    .cosmetic-perpect-wrap .mdesc{margin-top:40px;}
+    .cosmetic-perpect-wrap .mdesc br{display:none;}
+    .breast-before-after-wrap{margin-top:60px;}
+    .breast-before-after-wrap dl dt{font-size:30px;line-height:1.3em;}
+    .breast-before-after-wrap dl dd{margin-top:20px;}
+    .breast-before-after-wrap dl dd>ul>li{display:block;padding:20px;}
+    .breast-before-after-wrap dl dd ul li .mcont{margin-left:0;margin-right:0;}
+    .breast-before-after-wrap dl dd ul li .mcont .stit{font-size:24px;}
+    .breast-before-after-wrap dl dd ul li .mcont ul{margin-top:20px;}
+    .breast-before-after-wrap dl dd ul li .mpic{width:100%;height:auto;margin-top:20px;}
+    .breast-custom-wrap{margin-top:60px;}
+    .breast-custom-wrap dl dt .mtit{font-size:24px;line-height:1.3em;}
+    .breast-custom-wrap dl dt .mdesc{margin-top:20px;}
+    .breast-custom-wrap dl dd{margin-top:40px;}
+    .breast-custom-wrap dl dd>ul>li{padding:20px;height:auto;}
+    .breast-custom-wrap dl dd ul li .mcont{width:100%;height:auto;padding:20px;}
+    .breast-custom-wrap dl dd ul li .mpic{position:static;width:100%;margin-top:20px;}
+    .breast-custom-wrap dl dd ul li .mcont .stit{font-size:20px;padding-bottom:10px;}
+    .breast-custom-wrap dl dd>ul>li + li{margin-top:20px;}
+    .breast-result-wrap{margin:60px auto;}
+    .breast-result-wrap dl dt .mtit{font-size:30px;line-height:1.3em;}
+    .breast-result-wrap dl dt .mdesc{margin-top:20px;}
+    .breast-result-wrap dl dd{margin-top:40px;padding:20px;}
+    .breast-result-wrap dl dd .after-box{display:block;}
+    .breast-result-wrap dl dd .after-box .mitem + .mitem{margin-top:20px;}
+    .breast-result-wrap dl dd .after-box .mitem .spic{height:auto;}
+    .breast-result-wrap dl dd .after-box .mitem .stxt{padding-top:10px;}
+    .breast-result-wrap dl dd .mpic{margin-top:20px;}
+    .breast-result-wrap dl dd .mtit{margin-top:40px;font-size:20px;}
+    .breast-result-wrap dl dd ul{margin-top:20px;}
+    .breast-result-wrap dl dd ul li{width:100%;padding:20px;}
+    .cosmetic-stress-wrap{margin-top:60px;}
+    .cosmetic-stress-wrap .mtit{font-size:30px;line-height:1.3em;}
+    .cosmetic-stress-wrap .metc{margin-top:40px;line-height:1.5em;}
+    .cosmetic-stress-wrap .mpic{margin-top:20px;}
+    .cosmetic-about-wrap04 .mdesc03{margin-top:20px;font-size:24px;padding:0 20px;line-height:1.3em;}
+    .cosmetic-about-wrap04 .mdesc04{padding:0 20px;}
+    .body-banner-wrap{height:auto;padding:100px 0;}
+    .body-banner-wrap .mtit{font-size:30px;line-height:1.3em;}
+    .body-banner-wrap .mdesc{margin-top:20px;}
 }
