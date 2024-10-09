@@ -910,3 +910,33 @@ line-height:1.5em;font-size:16px;color:#B29377;font-weight:400;letter-spacing: -
     .body-banner-wrap .mtit{font-size:30px;line-height:1.3em;}
     .body-banner-wrap .mdesc{margin-top:20px;}
 }
+
+.skin-about-wrap01{}
+.skin-about-wrap01 .mcont{}
+.skin-about-wrap01 .mcont .mcate{}
+.skin-about-wrap01 .mcont .mtit{}
+.skin-about-wrap01 .mcont .mdesc{}
+.skin-about-wrap01 .mcont .metc{}
+.skin-about-wrap01 .mpic{}
+.skin-about-wrap01 .mpic img{}
+
+.skin-step-wrap{}
+.skin-step-wrap .mtit{}
+.skin-step-wrap ul{}
+.skin-step-wrap ul li{}
+.skin-step-wrap ul li .mnum{}
+.skin-step-wrap ul li .mtit{}
+.skin-step-wrap ul li .mdesc{}
+
+.skin-item-wrap{}
+.skin-item-wrap>ul{}
+.skin-item-wrap>ul>li{}
+.skin-item-wrap ul li .mnum{}
+.skin-item-wrap ul li .mtit{}
+.skin-item-wrap ul li .mdesc{}
+.skin-item-wrap ul li .mcate{}
+.skin-item-wrap ul li .mpic{}
+.skin-item-wrap ul li .mpic .oitem{}
+.skin-item-wrap ul li .mpic .oitem img{}
+.skin-item-wrap>ul>li>ul{}
+.skin-item-wrap>ul>li>ul li{}
