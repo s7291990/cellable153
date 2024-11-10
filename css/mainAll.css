@@ -6,7 +6,10 @@
 .visible-mo {
   display: none;
 }
-
+.doctdoctors-slider-box{position:relative;}
+.doctors-slider-box .btn-more{position: absolute;
+    left: 150px;
+    bottom: 180px;}
 @media (min-width: 1px) and (max-width: 768px) {
   .visible-pc {
     display: none;
@@ -1275,6 +1278,9 @@
   max-width: 100%;
   margin: auto;
 }
+.swiper-backface-hidden .swiper-slide{
+	text-align:center;
+}
 .doctors-section .doctors-content {
   height: 63.84vw;
   display: flex;
@@ -1282,7 +1288,7 @@
   gap: 10.6vw;
   position: relative;
   background: url(../img/doctors-background.png) no-repeat center;
-  background-size: 68.92vw 63.84vw;
+  background-size: contain;
 }
 .doctors-section .doctors-content .doctors-controls {
   position: relative;
@@ -1505,6 +1511,11 @@
     width: 6.0411458333vw;
     height: 6.0411458333vw;
   }
+  .doctors-slider-box .btn-more{
+    left: calc(50% - 29.6875vw);
+    bottom: 14.5833333333vw;
+    width: 6.0411458333vw;
+    height: 6.0411458333vw;}
   .doctors-section .doctors-content .doctors-slider-box .doctors-info {
     gap: 5.1041666667vw;
   }
@@ -1559,7 +1570,7 @@
     background-position: center 24.7395833333vw;
   }
   .doctors-section .doctors-content .doctors-controls p.tit {
-    font-size: 10.4166666667vw;
+    font-size: 8.333333vw;
     text-align: center;
   }
   .doctors-section .doctors-content .doctors-controls ul.doctors-list {
@@ -1583,6 +1594,16 @@
     border: 1px solid rgb(178, 147, 119);
     border-radius: 50%;
   }
+  .doctors-slider-box .btn-more {
+       transform: translateX(0);
+        left: 0vw;
+        bottom: 6.5vw;
+        width: 12.5vw;
+        height: 12.5vw;
+        border: 1px solid rgb(178, 147, 119);
+        border-radius: 50%;
+    }
+}
   .doctors-section .doctors-content .doctors-slider-box .doctors-info {
     gap: 0;
   }
@@ -1590,11 +1611,11 @@
     display: none;
   }
   .doctors-section .doctors-content .doctors-slider-box .doctors-info .name strong {
-    font-size: 8.3333333333vw;
+    font-size: 4.333333vw;
     margin-bottom: 1.0416666667vw;
   }
   .doctors-section .doctors-content .doctors-slider-box .doctors-info .name span {
-    font-size: 4.1666666667vw;
+    font-size: 2.166667vw;
   }
   .doctors-section .doctors-content .doctors-slider-box .schedule-button {
     width: 48.1770833333vw;
@@ -1609,7 +1630,7 @@
     width: 6.25vw;
   }
   .doctors-section .doctors-content .doctors-slider-box .doctors-slider {
-    top: 62.3697916667vw;
+    top: 42.569792vw;
     width: 33.3333333333vw;
   }
   .doctors-section .doctors-content .doctors-slider-box .doctors-slider .pager {
@@ -1619,6 +1640,7 @@
     width: 1.5625vw;
     height: 1.5625vw;
   }
+  
 }
 .visible-pc {
   display: block;
@@ -1627,6 +1649,63 @@
 .visible-mo {
   display: none;
 }
+@media(max-width: 1600px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider {
+		top: 37.369792vw;
+	  }
+}
+@media(max-width: 1400px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider {
+		top: 37.369792vw;
+		        width: 34%;
+	  }
+	  .doctors-section .doctors-content{height:956px;}
+}
+@media(max-width: 1080px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider {
+		top: 37.369792vw;
+		        width: 34%;
+	  }
+	  .doctors-section .doctors-content{height: 74vw;}
+}
+@media(max-width: 768px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider {
+		top: 64.869792vw;
+	  }
+	   .doctors-section .doctors-content .doctors-slider-box .doctors-info .name strong {
+		font-size: 8.333333vw;
+	  }
+	  .doctors-section .doctors-content .doctors-slider-box .doctors-info .name span {
+		font-size: 4.166667vw;
+	  }
+	  .doctors-section .doctors-content{height: auto;;}
+}
+@media(min-width: 1921px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider{
+		top: 36.669792vw;
+	 }
+}
+@media(min-width: 2121px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider{
+		        top: 35.569792vw;
+	 }
+}
+@media(min-width: 2221px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider{
+		        top: 36.069792vw;
+	 }
+}
+@media(min-width: 2321px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider{
+		        top: 37.069792vw;
+	 }
+}
+@media(min-width: 2521px) {
+	 .doctors-section .doctors-content .doctors-slider-box .doctors-slider{
+		        top: 37.669792vw;
+	 }
+}
+
 
 @media (min-width: 1px) and (max-width: 768px) {
   .visible-pc {

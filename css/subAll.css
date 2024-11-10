@@ -1714,17 +1714,17 @@
   }
   .contents-section .doctors-cont .profile-cont > .tab-list {
     display: flex;
-    gap: 4.1666666667vw;
+    gap: 2vw;
     margin-bottom: 10.4166666667vw;
   }
   .contents-section .doctors-cont .profile-cont > .tab-list .item a {
     display: inline-flex;
     justify-content: center;
-    width: 30.7291666667vw;
-    font-size: 4.6875vw;
+    width: 18.729167vw;
+    font-size: 3.6875vw;
     font-weight: 700;
     color: #DACFC6;
-    padding: 3.125vw 6.25vw;
+    padding: 3.125vw 4.25vw;
     border: 2px solid #DACFC6;
     border-radius: 130.2083333333vw;
     background: #fff;
@@ -1734,7 +1734,7 @@
     color: rgb(178, 147, 119);
     border-color: rgb(178, 147, 119);
     background: url("../img/sub-content/ico-checked.svg") no-repeat;
-    background-position: calc(100% - 5.7291666667vw) center;
+    background-position: center bottom;
     background-size: 4.1666666667vw;
   }
   .contents-section .doctors-cont .profile-cont .tab-content {

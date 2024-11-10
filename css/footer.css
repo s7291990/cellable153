@@ -529,7 +529,7 @@
     gap: 0.78125vw;
   }
   .footer-wrap .foot-counsel-list .item {
-    flex-basis: 29.4791666667vw;
+    flex-basis: 50%;
     height: 12.4479166667vw;
     border-radius: 1.875vw;
     padding: 0 2.0833333333vw 0 1.6666666667vw;
@@ -860,7 +860,7 @@
     font-size: 12.5vw;
   }
   .footer-wrap .foot-address .address {
-    font-size: 5.2083333333vw;
+    font-size: 4.208333vw;
     line-height: 7.2916666667vw;
     font-weight: 500;
     color: rgb(255, 214, 214);
@@ -870,7 +870,7 @@
     margin-bottom: 3.125vw;
   }
   .footer-wrap .foot-address .desc .careers-email {
-    font-size: 5.2083333333vw;
+    font-size: 4.208333vw;
     line-height: 7.2916666667vw;
     font-weight: 500;
     color: rgb(255, 214, 214);
